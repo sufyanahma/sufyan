@@ -442,6 +442,7 @@ def menu_select():
 			r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
 
 			q = json.loads(r.text)
+                        z = q['name']
 
 			print("[!] Target from : "+q["name"])
 
@@ -471,12 +472,12 @@ def menu_select():
 
 	elif select =="3":
 
-		os.system("clear")
-
-		print logo
-
-		print("")
-		print(logo)	
+		os.system('clear')
+                print logo
+                print '\x1b[1;93m_____ Name pass followers cracking _____\x1b[1;91m'
+                print 47 * '-'
+                print ' \x1b[1;93mFor example:123,1234,12345,786,12,1122\x1b[1;91m'
+                print 47 * '-'
 		p1 = raw_input("(*) Name + Pass : ")
 		p2 = raw_input("(*) Name + Pass : ")
 		p3 = raw_input("(*) Name + Pass : ")
@@ -486,14 +487,14 @@ def menu_select():
 		pass7 = raw_input("(*) Password : ")
 		
 						
-		idt = raw_input("\x1b[1;93m Input id:\x1b[1;92m ")
+		idt = raw_input("\x1b[1;93m Enter id:\x1b[1;92m ")
 
 		try:
 
 			r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token, headers=header)
 
 			q = json.loads(r.text)
-
+                        z = q['name']
 			print(" Target from  : "+q["name"])
 
 		except (KeyError , IOError):
