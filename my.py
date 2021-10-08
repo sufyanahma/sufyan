@@ -78,11 +78,11 @@ logo = """
 \033[1;92m    ╚══════╝    ╚═╝  ╚═╝    ╚══════╝ (Fees Charge- 150)                               
 \033[1;95m◁━━━━━━━━━━━━━━━━━━━━◈✙◈━━━━━━━━━━━━━━━━━━━━▷\033[1;95m
 \033[1;93m-----------------------------------------------
-\033[1;96m(💥)\033[1;96m Tool Owner : SuFyaN AhMad \033[1;97m[ \033[0;92mCharge Fees(150)😘 \033[1;97m]
+\033[1;96m(💥)\033[1;96m Tool Owner : SuFyaN AhMad \033[1;97m[ \033[0;92mFees Charge(150) \033[1;97m]
 
-\033[1;96m(💥)\033[1;93m WhatsApp   : +923489458276
+\033[1;96m(💥)\033[1;95m Facebook   : https://www.facebook.com/sufyanshabqadry
 
-\033[1;96m(💥)\033[1;95m Facebook   : https://www.facebook.com/sufyanshabqadry                                        
+\033[1;96m(💥)\033[1;93m WhatsApp   : +923489458276                                       
 \033[1;93m-----------------------------------------------
 
 """
@@ -93,9 +93,7 @@ def main():
     print logo
 
     print("")
-
     print("\033[0;97m[ Starting Main Menu ]").center(50)
-
     print("")
 
     print("\033[1;97m[1]\033[1;91m > \033[1;97mStart Fast Cloning")
@@ -362,9 +360,7 @@ def menu():
     os.system("clear")
 
     print logo
-
     print("")
-
     print("\t\033[1;92mWelcome Mr : " +nm)
 
     print("")
@@ -599,7 +595,7 @@ def menu_select():
 
 		            if 'www.facebook.com' in d['error_msg']:
 
-		                print("\033[1;91m[SUFYAN-CP] "+uid+" | "+pass2)
+		                print("\033[1;92m[SUFYAN-OK] "+uid+" | "+pass2)
 
 		                cp=open("cp.txt","a")
 
