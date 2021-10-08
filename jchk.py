@@ -140,7 +140,6 @@ def ip():
     print ' Loading ...'
     time.sleep(1)
     log_menu()
-
 def main():
 
     os.system("clear")
