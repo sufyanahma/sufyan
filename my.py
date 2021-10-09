@@ -618,7 +618,7 @@ def menu_select():
 
 		    if 'www.facebook.com' in d['error_msg']:
 
-		        print("\033[1;92m[SUFYAN-OK] "+uid+" | "+pass1)
+		        print("\033[1;91m[SUFYAN-CP] "+uid+" | "+pass1)
 
 		        cp=open("ok.txt","a")
 
@@ -652,7 +652,7 @@ def menu_select():
 
 		            if 'www.facebook.com' in d['error_msg']:
 
-		                print("\033[1;92m[SUFYAN-OK] "+uid+" | "+pass2)
+		                print("\033[1;91m[SUFYAN-CP] "+uid+" | "+pass2)
 
 		                cp=open("cp.txt","a")
 
@@ -816,7 +816,7 @@ def menu_select():
 
 		                                                     if 'www.facebook.com' in d['error_msg']:
 
-		                                                        print("\033[1;92m[SUFYAN-OK] "+uid+" | "+pass7)
+		                                                        print("\033[1;91m[SUFYAN-CP] "+uid+" | "+pass7)
 
 		                                                        cp=open("cp.txt","a")
 
